@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import FeedbackData from "./data/FeedbackData";
 
 function App() {
-  const [feedback, setfeedback] = useState(FeedbackData);
+  const [feedback, setFeedback] = useState(FeedbackData);
 
   return (
     <>
